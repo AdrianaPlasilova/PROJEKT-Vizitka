@@ -36,7 +36,8 @@ section {
     width: 550px;
     margin: 150px auto;
     border-radius: 10px;
-    
+    box-shadow: 5px 2px 2px rgb(59, 59, 59);
+    position: relative;
 
 }
 
@@ -44,10 +45,23 @@ section {
 .foto-profil {
 
     border-radius: 50%;
-    border-width: 3px;
-    border-color: white;
     width: 150px;
+    position: absolute;
+	left: 0;
+	top: 0;
 }
+
+.twitter a:focus,
+.twitter a:hover,
+.twitter a:active {
+  background-color:  #0b7bc1;
+  }
+
+.facebook a:focus,
+.facebook a:hover,
+.facebook a:active {
+    background-color:#2b406e;
+    }
 
 .twitter,
 .facebook
@@ -57,6 +71,10 @@ display: block;
 text-transform: uppercase;
 border-radius: 5px;
 padding: 10px;
+text-align: center;
+text-decoration: none;
+
+
 }
 
 .twitter {
