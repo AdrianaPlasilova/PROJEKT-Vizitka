@@ -19,7 +19,7 @@ body {
     font-family: "Nunito", sans-serif;
     background-color: #b2bec3;
     font-size: 18px;
-
+    
 }
 
 h1 {
@@ -29,38 +29,42 @@ font-size: 36px;
 
 }
 
-section {
+div.vizitka {
     background-color: white;
     padding: 30px;
     overflow: auto;
     width: 550px;
     margin: 150px auto;
     border-radius: 10px;
-    box-shadow: 5px 2px 2px rgb(59, 59, 59);
+    box-shadow: 5px 2px 2px #777f82;
     position: relative;
+    overflow: visible;
 
 }
 
 
-.foto-profil {
-
+    .foto {
     border-radius: 50%;
     width: 150px;
     position: absolute;
-	right: 0;
-    top: 0;
-}
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+	right: -75px;
+    top: -75px;
+    }
 
-.twitter a:focus,
-.twitter a:hover,
-.twitter a:active {
-  background-color:  #0b7bc1;
+a.facebook:focus,
+a.facebook:hover,
+a.facebook:active {
+    background-color:#2b406e;;
   }
 
-.facebook a:focus,
-.facebook a:hover,
-.facebook a:active {
-    background-color:#2b406e;
+ a.twitter:focus,
+ a.twitter:hover,
+ a.twitter:active {
+    background-color:  #0b7bc1
+    
     }
 
 .twitter,
