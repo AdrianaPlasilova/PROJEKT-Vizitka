@@ -19,8 +19,7 @@ body {
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     background-color: #b2bec3;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 
 h1 {
@@ -28,8 +27,6 @@ color: #d63031;
 font-weight: 700;
 font-size: 36px;
 margin: 0;
-
-
 }
 
 div.vizitka {
@@ -42,8 +39,7 @@ div.vizitka {
     position: relative;
     overflow: visible;
     padding: 30px;
-
-}
+    }
 
 
     .foto {
@@ -67,12 +63,10 @@ a.facebook:active {
  a.twitter:hover,
  a.twitter:active {
     background-color:  #0b7bc1
-    
     }
 
 .twitter,
-.facebook
-{
+.facebook {
 font-weight: bold;
 display: block;
 text-transform: uppercase;
@@ -80,18 +74,15 @@ border-radius: 5px;
 padding: 10px;
 text-align: center;
 text-decoration: none;
-
 }
 
 .twitter {
 background-color: #1da1f2;
 color: white;
 margin: 10px 0;
-
 }
 
 .facebook {
     background-color: #3b5998;
     color: white;
-
 }
