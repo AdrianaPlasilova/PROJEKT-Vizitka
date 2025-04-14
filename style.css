@@ -47,8 +47,8 @@ section {
     border-radius: 50%;
     width: 150px;
     position: absolute;
-	left: 0;
-	top: 0;
+	right: 0;
+    top: 0;
 }
 
 .twitter a:focus,
@@ -80,6 +80,7 @@ text-decoration: none;
 .twitter {
 background-color: #1da1f2;
 color: white;
+margin: 10px 0;
 
 }
 
